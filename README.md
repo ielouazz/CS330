@@ -48,6 +48,15 @@
       statement(s);
 }
  ```
+ 
+ # Conditional Statements: 
+ ### boolean expression followed by one or moree statments. if the boolean expression turns out to be true then the code will be executed.
+ ``` if(boolean_expression) {
+   /* statement(s) will execute if the boolean expression is true */
+}
+```
+![alt text] https://www.tutorialspoint.com/objective_c/images/if_statement.jpg
+
 ##  Resources:  
 
 ###  https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
