@@ -17,7 +17,7 @@
 #### - Instacart... etc!
 
 ## Reserved Words: 
-#### ![alt text] (https://www.oreilly.com/api/v2/epubs/9780321712110/files/graphics/t0337-01.jpg)
+![alt text] (https://www.oreilly.com/api/v2/epubs/9780321712110/files/graphics/t0337-01.jpg)
 ## How to comment code:
 #### To add notes about the code or comment out sections of code that just aren't working you can use single line comments using the // marker
 #### But if you want to do a multi-line commenting is /* and ending with */
