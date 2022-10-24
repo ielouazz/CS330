@@ -55,7 +55,7 @@
    /* statement(s) will execute if the boolean expression is true */
 }
 ```
-![alt text] (https://www.tutorialspoint.com/objective_c/images/if_statement.jpg)
+![alt text](https://www.tutorialspoint.com/objective_c/images/if_statement.jpg)
 
 ##  Resources:  
 
