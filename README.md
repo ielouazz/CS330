@@ -32,6 +32,22 @@
  #### bool-> takes on the values of true and false
  #### BOOL-> takes on macros of YES or NO. 
  
+ 
+ 
+ ```
+ switch(expression){
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+   case constant-expression  :
+      statement(s);
+      break; /* optional */
+  
+   /* you can have any number of case statements */
+   default : /* Optional */
+      statement(s);
+}
+ ```
 ##  Resources:  
 
 ###  https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
@@ -39,6 +55,7 @@
 ###  https://learnxinyminutes.com/docs/objective-c
 ###  https://developer.apple.com/library/archive/referencelibrary/GettingStarted/RoadMapiOS-Legacy/chapters/WriteObjective-CCode/WriteObjective-CCode/WriteObjective-CCode.html#:~:text=The%20Objective%2DC%20language%20specifies,same%20basic%20syntax%20as%20C.
 ###  https://medium.com/ios-objective-creation/lesson-1-introduction-to-objective-c-programming-22f5fe71172
+### https://www.tutorialspoint.com/objective_c/switch_statement_in_objective_c.htm
 
  						
 
