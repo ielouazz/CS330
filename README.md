@@ -50,12 +50,33 @@
  ```
  
  # Conditional Statements: 
- ### boolean expression followed by one or moree statments. if the boolean expression turns out to be true then the code will be executed.
+ ### Boolean expression followed by one or moree statments. if the boolean expression turns out to be true then the code will be executed.
+ ### There seems to be only if/else and switch statments and none other conditional statment
  ``` if(boolean_expression) {
    /* statement(s) will execute if the boolean expression is true */
 }
 ```
 ![alt text](https://www.tutorialspoint.com/objective_c/images/if_statement.jpg)
+
+
+# Block Syntax:
+### Bhe syntax to deine a block literal uses the (^) is used for example in the code below
+```
+^{
+         NSLog(@"This is a block");
+    }
+```
+### Blocks takes arguments qand returns values just like the method and functions.
+
+``` 
+if(myString != NSNull && myString.length) { ... }
+```
+
+# Since C supports short-circuit evaluation Objective-C does as well!
+
+
+
+
 
 ##  Resources:  
 
@@ -65,6 +86,7 @@
 ###  https://developer.apple.com/library/archive/referencelibrary/GettingStarted/RoadMapiOS-Legacy/chapters/WriteObjective-CCode/WriteObjective-CCode/WriteObjective-CCode.html#:~:text=The%20Objective%2DC%20language%20specifies,same%20basic%20syntax%20as%20C.
 ###  https://medium.com/ios-objective-creation/lesson-1-introduction-to-objective-c-programming-22f5fe71172
 ### https://www.tutorialspoint.com/objective_c/switch_statement_in_objective_c.htm
+### https://www.tutorialspoint.com/objective_c/if_statement_in_objective_c.htm
 
  						
 
