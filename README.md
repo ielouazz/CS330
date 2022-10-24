@@ -27,6 +27,11 @@
 ### Variable names should contain only letters and numbers (no punctuation such as commas or dashes). 
 ### This is a restriction in the Objective-C language and many other languages, but this helps keeping variable names tidy.
 
+## Boolean Values in Objective-C:
+### The value zero is treated as "false" and one is treated as "true"
+ #### bool-> takes on the values of true and false
+ #### BOOL-> takes on macros of YES or NO. 
+ 
 ##  Resources:  
 
 ###  https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
