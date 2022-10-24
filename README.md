@@ -17,7 +17,7 @@
 #### - Instacart... etc!
 
 ## Reserved Words: 
-#### ![alt text]([https://www.oreilly.com/library/view/learning-objective-c-20/9780133047462/graphics/app-a_tab01.jpg)
+#### ![alt text](https://www.oreilly.com/library/view/learning-objective-c-20/9780133047462/graphics/app-a_tab01.jpg)
 
 ## How to comment code:
 #### To add notes about the code or comment out sections of code that just aren't working you can use single line comments using the // marker
