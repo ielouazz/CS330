@@ -75,7 +75,46 @@ if(myString != NSNull && myString.length) { ... }
 # Since C supports short-circuit evaluation Objective-C does as well!
 
 
+# LOOPS:
 
+### Objective-C includes For loops, nested for loops and while loops!
+### A function is delcared using the following syntax: 
+#### <return type> <function name> (<arg1 type> <arg1 name>, <arg2 type> <arg2 name>, 
+
+```
+#import <Foundation/Foundation.h>
+ 
+int main () {
+   
+   /* for loop execution */
+   int a;
+   for( a = 10; a < 20; a = a + 1 ) {
+      NSLog(@"value of a: %d\n", a);
+   }
+ 
+   return 0;
+}
+```
+
+```
+#import <Foundation/Foundation.h>
+ 
+int main () {
+   
+   /* local variable definition */
+   int a = 10;
+
+   /* while loop execution */
+   while( a < 20 ) {
+      NSLog(@"value of a: %d\n", a);
+      a++;
+   }
+   return 0;
+}
+```
+
+# Side effects does not seem to occur in objective C from my searching.
+# Objective C only allows passing parameters by value and reference.
 
 
 ##  Resources:  
