@@ -79,7 +79,7 @@ if(myString != NSNull && myString.length) { ... }
 
 ### Objective-C includes For loops, nested for loops and while loops!
 ### A function is delcared using the following syntax: 
-#### <return type> <function name> (<arg1 type> <arg1 name>, <arg2 type> <arg2 name>, 
+### <return type> <function name> (<arg1 type> <arg1 name>, <arg2 type> <arg2 name>
 
 ```
 #import <Foundation/Foundation.h>
