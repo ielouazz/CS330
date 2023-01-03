@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C587812B2955FCCE00B3C20E /* shadowFigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C587812A2955FCCE00B3C20E /* shadowFigure.m */; };
+		C5F1570729418C3900249B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1570629418C3900249B69 /* main.m */; };
+		C5F15711294AF0A200249B69 /* begin.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F15710294AF0A200249B69 /* begin.m */; };
+		C5F15717294AFB1C00249B69 /* hauntedCave.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F15716294AFB1C00249B69 /* hauntedCave.m */; };
+		C5F15719294AFB4100249B69 /* showSkeletons.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F15718294AFB4100249B69 /* showSkeletons.m */; };
+		C5F1571B294AFB5300249B69 /* strangeCreatures.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1571A294AFB5300249B69 /* strangeCreatures.m */; };
+		C5F1571D294B022900249B69 /* secretWaterFall.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F1571C294B022900249B69 /* secretWaterFall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5F156F529417EE800249B69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C587812A2955FCCE00B3C20E /* shadowFigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shadowFigure.m; sourceTree = "<group>"; };
+		C587812C2957A93100B3C20E /* introscene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = introscene.h; sourceTree = "<group>"; };
+		C5F156F729417EE800249B69 /* AdvantureGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantureGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F1570629418C3900249B69 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
+		C5F15710294AF0A200249B69 /* begin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = begin.m; sourceTree = "<group>"; };
+		C5F15716294AFB1C00249B69 /* hauntedCave.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hauntedCave.m; sourceTree = "<group>"; };
+		C5F15718294AFB4100249B69 /* showSkeletons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showSkeletons.m; sourceTree = "<group>"; };
+		C5F1571A294AFB5300249B69 /* strangeCreatures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = strangeCreatures.m; sourceTree = "<group>"; };
+		C5F1571C294B022900249B69 /* secretWaterFall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secretWaterFall.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F156F429417EE800249B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F156EE29417EE800249B69 = {
+			isa = PBXGroup;
+			children = (
+				C587812A2955FCCE00B3C20E /* shadowFigure.m */,
+				C5F15716294AFB1C00249B69 /* hauntedCave.m */,
+				C5F1571C294B022900249B69 /* secretWaterFall.m */,
+				C5F15718294AFB4100249B69 /* showSkeletons.m */,
+				C5F1571A294AFB5300249B69 /* strangeCreatures.m */,
+				C5F15710294AF0A200249B69 /* begin.m */,
+				C5F1570629418C3900249B69 /* main.m */,
+				C587812C2957A93100B3C20E /* introscene.h */,
+				C5F156F829417EE800249B69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F156F829417EE800249B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F156F729417EE800249B69 /* AdvantureGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F156F629417EE800249B69 /* AdvantureGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F156FE29417EE800249B69 /* Build configuration list for PBXNativeTarget "AdvantureGame" */;
+			buildPhases = (
+				C5F156F329417EE800249B69 /* Sources */,
+				C5F156F429417EE800249B69 /* Frameworks */,
+				C5F156F529417EE800249B69 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvantureGame;
+			productName = AdvantureGame;
+			productReference = C5F156F729417EE800249B69 /* AdvantureGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F156EF29417EE800249B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C5F156F629417EE800249B69 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C5F156F229417EE800249B69 /* Build configuration list for PBXProject "AdvantureGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F156EE29417EE800249B69;
+			productRefGroup = C5F156F829417EE800249B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F156F629417EE800249B69 /* AdvantureGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F156F329417EE800249B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F1571D294B022900249B69 /* secretWaterFall.m in Sources */,
+				C587812B2955FCCE00B3C20E /* shadowFigure.m in Sources */,
+				C5F1571B294AFB5300249B69 /* strangeCreatures.m in Sources */,
+				C5F1570729418C3900249B69 /* main.m in Sources */,
+				C5F15717294AFB1C00249B69 /* hauntedCave.m in Sources */,
+				C5F15711294AF0A200249B69 /* begin.m in Sources */,
+				C5F15719294AFB4100249B69 /* showSkeletons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5F156FC29417EE800249B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C5F156FD29417EE800249B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5F156FF29417EE800249B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5F1570029417EE800249B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F156F229417EE800249B69 /* Build configuration list for PBXProject "AdvantureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F156FC29417EE800249B69 /* Debug */,
+				C5F156FD29417EE800249B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F156FE29417EE800249B69 /* Build configuration list for PBXNativeTarget "AdvantureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F156FF29417EE800249B69 /* Debug */,
+				C5F1570029417EE800249B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F156EF29417EE800249B69 /* Project object */;
+}
